@@ -2,7 +2,10 @@
 
 This is a Streamlit-based web application that automates the extraction, summarization, and question-answering process for government scheme documents and articles. Users can input scheme URLs (HTML or PDF), generate concise summaries, and ask natural language questions to retrieve information using an LLM-powered QA system.
 
-## 🔍 Features
+## Live working demo
+[https://en.wikipedia.org/wiki/One_Nation_One_Subscription](https://sample-gov-scheme-assistant-hjsregwe59gyv2ddstgqsj.streamlit.app/)
+
+## Features
 
 - Accepts both web page URLs and PDF URLs
 - Automatically extracts and processes text using `BeautifulSoup` and `PyMuPDF`
@@ -10,7 +13,7 @@ This is a Streamlit-based web application that automates the extraction, summari
 - Enables users to ask questions using LLM and FAISS-based document retrieval
 - Highlights source URLs for transparency
 
-## 🛠️ Tech Stack
+## 🛠Tech Stack
 
 - Python
 - Streamlit
@@ -21,7 +24,7 @@ This is a Streamlit-based web application that automates the extraction, summari
 - OpenAI LLM (Mistral via OpenAI-compatible API)
 - BeautifulSoup (for web scraping)
 
-## 🧪 How to Run
+## How to Run
 
 ```bash
 # Clone the repository
