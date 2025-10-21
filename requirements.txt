@@ -8,3 +8,6 @@ langchain-community
 sentence-transformers
 openai
 faiss-cpu
+langchain-core        
+langchain-text-splitters
+langchain-openai         
