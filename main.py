@@ -9,7 +9,7 @@ from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain_community.vectorstores import FAISS
 from langchain_core.documents import Document
 from langchain_text_splitters import RecursiveCharacterTextSplitter
-from langchain.chains.question_answering import load_qa_chain
+from langchain.chains import load_qa_chain
 from langchain_openai import ChatOpenAI
 
 # Load environment variables
@@ -137,6 +137,7 @@ if ask_button:
             st.markdown(f"- [{source}]({source})")
 
         st.success("Answer retrieved successfully.")
+
 
 
 
